@@ -78,39 +78,78 @@
     .link-map {
       font-size: 13px;
     }
+}
+@media screen and (max-width: 767px) {
+  /* MAIN PAGE */
+  .container {
+    width: 428px;
   }
-  
-  /* TABLET */
-  
-  @media screen and (max-width: 1157px) {
-    .container {
-      width: 768px;
-    }
-    .PhotoAndSlogan {
-      display: none;
-    }
-    .MainTexts {
-      flex-direction: column;
-      display: flex;
-      text-align: center;
-    }
+  .Logo {
+    width: 103px;
+    height: 53px;
   }
-  
-  @media screen and (min-width: 1158px) {
-    .text1 {
-      margin-top: 40px;
-      margin-left: 1000px;
-      width: 500px;
-    }
-    .text2 {
-      margin-top: -110px;
-      padding-left: 215px;
-      width: 500px;
-    }
-    .text3 {
-      margin-top: 50px;
-      margin-left: 215px;
-      width: 500px;
-      margin-bottom: 40px;
-    }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .WhyMed {
+    padding-top: 190px;
+    padding-left: 105px;
+    color: #0456b7;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
+  .MainTexts {
+    display: flex;
+  }
+  .text1 {
+    width: calc((100%- 72px) / 2);
+    max-width: 500px;
+  }
+  .ul-text-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-pading {
+    padding-top: 24px;
+  }
+  .h-div-main {
+    color: #0456b7;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .WhyMed {
+    margin-left: 65px;
+    padding-top: 50px;
+  }
+  .text1 {
+    width: calc((100%- 72px) / 2);
+    max-width: 500px;
+  }
+  .ul-text-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ul-footer {
+    gap: 45px;
+    display: flex;
+    padding: 24px;
+  }
+}

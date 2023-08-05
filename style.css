@@ -100,11 +100,6 @@ nav a {
   z-index: 1;
   color: white;
 }
-
-.WhyMed {
-  margin-left: 215px;
-  padding-top: 50px;
-}
 /* FOOTER */
 .footer-section {
   background-color: #dfefff;
@@ -122,11 +117,6 @@ nav a {
 }
 .footer-text {
   color: black;
-  padding: 24px;
-}
-.ul-footer {
-  gap: 45px;
-  display: flex;
   padding: 24px;
 }
 .div-color-blue {
