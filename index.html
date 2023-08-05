@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MedArt</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,24 +17,41 @@
     <!-- HEADER -->
     <header>
       <div class="container">
-        <!-- Підключення jQuery (приклад) -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-        <script>
-          $(document).ready(function() {
-            // Приховуємо бургер меню на початку
-            $(".burger-menu").hide();
-
-            // При кліку на іконку бургер меню
-            $(".burger-icon").click(function() {
-              // Змінюємо видимість бургер меню
-              $(".burger-menu").slideToggle();
-            });
-          });
-        </script>
         <!-- HTML код для бургер меню -->
         <div class="burger-menu">
-          <div class="burger-icon"></div>
+          <nav class="phoneNavbar">
+            <ul class="ph-list">
+              <li><a href="index.html"
+                ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+                /></a></li>
+              <span class="left-ph"><li><a href="appointment.html">Записатися на прийом</a></li></span>
+              <li>
+                <ul class="menu">
+                  <li><a href="#">Про MedArt</a></li>
+                  <li><a href="#">Лікарі MedArt</a></li>
+                  <li>
+                    <a href="#">Наші послуги</a>
+                    <div class="hiden-menu">
+                      <ul>
+                        <li><a href="dantist.html">Стоматологія</a></li>
+                        <li>
+                          <a href="gynecologyandurology.html"
+                            >Гінекологія та Урологія</a
+                          >
+                        </li>
+                        <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="burger-menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="17" viewBox="0 0 27 17" fill="none">
+              <path d="M0 17V14.1667H26.25V17H0ZM0 9.91667V7.08333H26.25V9.91667H0ZM0 2.83333V0H26.25V2.83333H0Z" fill="#1C1B1F"/>
+              </svg>
+          </div> <!-- Іконка бургер-меню -->
         </div>
         <nav class="navbar">
           <a href="index.html"
@@ -145,5 +163,9 @@
         2007-2023 всі права захищені і належать клініці „MedArt”
       </p>
     </footer>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

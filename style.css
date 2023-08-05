@@ -25,39 +25,8 @@
 .link {
   text-decoration: none;
 }
-/* Стилі для іконки бургер меню */
-.burger-icon {
-  width: 30px;
-  height: 20px;
-  position: relative;
-  cursor: pointer;
-}
-
-/* Стилі для рисочок бургер меню */
-.burger-icon::before,
-.burger-icon::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: #000; /* Колір рисочок */
-  left: 0;
-}
-
-/* Перша рисочка */
-.burger-icon::before {
-  top: 0;
-}
-
-/* Друга рисочка (центральна) */
-.burger-icon::after {
-  bottom: 0;
-}
-
-/* Третя рисочка */
-.burger-icon:hover::before,
-.burger-icon:hover::after {
-  background-color: #888; /* Колір рисочок при наведенні */
+.burger-menu {
+  display: none;
 }
 .Logo {
   width: 150px;
