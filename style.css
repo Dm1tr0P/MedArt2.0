@@ -540,6 +540,14 @@ ul h2 {
 .modal-form-input-wrapper {
   position: relative;
 }
+.p-color {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .modal-form-input {
   width: 432px;
   height: 57px;
