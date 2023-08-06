@@ -424,7 +424,6 @@ ul h2 {
 }
 .div-box-doctors {
   display: flex;
-  gap: 130px;
   justify-content: center;
 }
 .button-click-MedArt {
