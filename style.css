@@ -47,6 +47,14 @@ nav a {
   text-decoration: none;
 }
 
+.MainPhoto2 {
+  display: none;
+}
+
+.MainPhoto {
+  display: block;
+}
+
 #main_nav li {
   z-index: 2;
   display: flex;
