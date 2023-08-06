@@ -9,16 +9,6 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.container-flex {
-  display: flex;
-  gap: 80px;
-  justify-content: center;
-}
-.titele-about {
-  display: flex;
-  gap: 110px;
-  justify-content: center;
-}
 .list {
   list-style: none;
 }
@@ -232,12 +222,7 @@ nav a {
   text-align: center;
 }
 .fist-img {
-  width: 800px;
-  height: 600px;
-}
-.div-texy-about {
-  margin-left: 250px;
-  margin-top: 100px;
+  height: 1000px;
 }
 .text-about {
   font-family: DM Sans;
@@ -559,4 +544,8 @@ ul h2 {
   width: 600px;
   height: 204px;
   text-align: center;
+}
+.div-button {
+  display: flex;
+  justify-content: center;
 }

@@ -1,83 +1,83 @@
 /* PHONE */
 @media screen and (max-width: 576px) {
-    /* MAIN PAGE */
-    .Logo {
-      width: 103px;
-      height: 53px;
-    }
-    .container {
-      margin-left: -60px;
-      margin-top: -20px;
-    }
-    .navbar {
-      display: none;
-    }
-    .burger-menu {
-      display: flex;
-    }
-    .burger-menu-button {
-      display: block;
-      padding-top: 35px;
-    }
-    nav ul {
-      display: flex;
-    }
-    nav ul li {
-      width: 170px;
-      height: 22px;
-    }
-    nav a {
-      font-size: 16px;
-    }
-    header {
-      width: 100%;
-    }
-    .ph-list {
-      list-style: none;
-    }
-    .left-ph {
-      padding-left: 30px;
-      padding-top: 20px;
-    }
-    .menu {
-      list-style: none;
-      display: none;
-    }
-    .menu.active {
-      display: block;
-    }
-    .MainTexts {
-      text-align: center;
-    }
-    .text1 {
-      width: 570px;
-      padding-left: 40px;
-    }
-    .text2 {
-      width: 570px;
-      padding-left: 40px;
-    }
-    .text3 {
-      width: 570px;
-      padding-left: 40px;
-    }
-    .WhyMed {
-      margin-left: -110px;
-    }
-    .map-div {
-      width: 200px;
-      height: 120px;
-      text-align: center;
-    }
-    .ourLoc {
-      font-size: 15px;
-    }
-    .link {
-      font-size: 13px;
-    }
-    .link-map {
-      font-size: 13px;
-    }
+  /* MAIN PAGE */
+  .Logo {
+    width: 103px;
+    height: 53px;
+  }
+  .container {
+    margin-left: -60px;
+    margin-top: -20px;
+  }
+  .navbar {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .burger-menu-button {
+    display: block;
+    padding-top: 35px;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    width: 170px;
+    height: 22px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+  header {
+    width: 100%;
+  }
+  .ph-list {
+    list-style: none;
+  }
+  .left-ph {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .menu {
+    list-style: none;
+    display: none;
+  }
+  .menu.active {
+    display: block;
+  }
+  .MainTexts {
+    text-align: center;
+  }
+  .text1 {
+    width: 570px;
+    padding-left: 40px;
+  }
+  .text2 {
+    width: 570px;
+    padding-left: 40px;
+  }
+  .text3 {
+    width: 570px;
+    padding-left: 40px;
+  }
+  .WhyMed {
+    margin-left: -110px;
+  }
+  .map-div {
+    width: 200px;
+    height: 120px;
+    text-align: center;
+  }
+  .ourLoc {
+    font-size: 15px;
+  }
+  .link {
+    font-size: 13px;
+  }
+  .link-map {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 767px) {
   /* MAIN PAGE */
@@ -129,8 +129,31 @@
     font-weight: 600;
     line-height: normal;
   }
+  .fist-img {
+    height: 321px;
+    position: relative;
+  }
+  .div-texy-about {
+    position: absolute;
+    z-index: 1;
+  }
+  .text-about {
+    color: aliceblue;
+  }
+  .div-foto-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .container-flex {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
-
 @media screen and (min-width: 1158px) {
   .WhyMed {
     margin-left: 65px;
@@ -151,5 +174,25 @@
     gap: 45px;
     display: flex;
     padding: 24px;
+  }
+  .div-texy-about {
+    margin-left: 250px;
+    margin-top: 100px;
+  }
+  .text-about {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1.08px;
+    width: 335px;
+  }
+  .container-flex {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
   }
 }
