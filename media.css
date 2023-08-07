@@ -9,6 +9,9 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .hero {
+    margin: 0, auto;
+  }
   header {
     width: 100%;
   }
@@ -149,6 +152,11 @@
   }
   .MainPhoto2 {
     display: block;
+    margin-left: -60px;
+  }
+  .MainTexts {
+    margin-left: -40px;
+    width: 400px;
   }
   .PhotoAndSlogan {
     display: flex;
@@ -210,6 +218,35 @@
   }
   .ourLoc {
     font-size: 13px;
+  }
+
+  /* FOOTER */
+  .link-footer {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .footer-text {
+    color: #0456B7;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .footer-section {
+    display: inline;
+    text-align: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+  .div-color-blue {
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
