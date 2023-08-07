@@ -1,16 +1,6 @@
 /* PHONE */
 @media screen and (max-width: 576px) {
   /* MAIN PAGE */
-}
-@media screen and (max-width: 767px) {
-  /* MAIN PAGE */
-  .container {
-    width: 428px;
-  }
-  .Logo {
-    width: 103px;
-    height: 53px;
-  }
   .Logo {
     width: 103px;
     height: 53px;
@@ -220,6 +210,16 @@
   }
   .ourLoc {
     font-size: 13px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* MAIN PAGE */
+  .container {
+    width: 428px;
+  }
+  .Logo {
+    width: 103px;
+    height: 53px;
   }
 }
 
