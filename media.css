@@ -6,8 +6,11 @@
     height: 53px;
   }
   .container {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0,auto;
+    padding: 0,auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
   }
   .hero {
     margin: 0, auto;
@@ -152,10 +155,11 @@
   }
   .MainPhoto2 {
     display: block;
-    margin-left: -60px;
+    padding: 0px;
+    width: 100%;
   }
   .MainTexts {
-    margin-left: -40px;
+    margin-left: -20px;
     width: 400px;
   }
   .PhotoAndSlogan {
@@ -238,21 +242,26 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: -15px;
   }
   .footer-section {
     display: inline;
     text-align: center;
-    row-gap: 10px;
     width: 100%;
   }
   .div-color-blue {
     width: 100%;
   }
+
+  .map-div {
+    margin-left: 100%;
+    z-index: 1;
+  }
 }
 @media screen and (max-width: 767px) {
   /* MAIN PAGE */
   .container {
-    width: 428px;
+    width: 100%;
   }
   .Logo {
     width: 103px;
