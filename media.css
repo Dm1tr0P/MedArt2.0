@@ -168,7 +168,7 @@
     line-height: normal;
   }
   .WhyMed {
-    color: #0456B7;
+    color: #0456b7;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -176,7 +176,7 @@
     line-height: normal;
   }
   .h-div-main {
-    color: #0456B7;
+    color: #0456b7;
     text-align: center;
     font-family: Montserrat;
     font-size: 20px;
@@ -200,7 +200,7 @@
     height: 150px;
   }
   .link-map {
-    color: #0456B7;
+    color: #0456b7;
     text-align: center;
     font-family: Montserrat;
     font-size: 12px;
@@ -286,6 +286,28 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .img-dantist {
+    width: 360px;
+    height: 367px;
+  }
+  .div-box-doctors {
+    gap: 36px;
+  }
+  .ul-div-box-doctors {
+    gap: 36px;
+  }
+  .div-box-doctors-text {
+    width: 359px;
+    height: 251px;
+  }
+  .img-tool {
+    width: 526px;
+    height: 300px;
+  }
+  .doctors-gynecology {
+    width: 360px;
+    height: 380px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .WhyMed {
@@ -327,5 +349,12 @@
     justify-content: center;
     flex-direction: column;
     align-content: space-around;
+  }
+  .div-box-doctors {
+    gap: 130px;
+  }
+  .doctors-gynecology {
+    width: 560px;
+    height: 600px;
   }
 }
