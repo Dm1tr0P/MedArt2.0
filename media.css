@@ -308,6 +308,9 @@
     width: 360px;
     height: 380px;
   }
+  .container-flex-doc {
+    gap: 100px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .WhyMed {
@@ -356,5 +359,11 @@
   .doctors-gynecology {
     width: 560px;
     height: 600px;
+  }
+  .div-site-map {
+    display: flex;
+  }
+  .div-site {
+    display: flex;
   }
 }
