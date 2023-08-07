@@ -47,6 +47,10 @@ nav a {
   text-decoration: none;
 }
 
+.top-nav {
+  display: none;
+}
+
 .MainPhoto2 {
   display: none;
 }

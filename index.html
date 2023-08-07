@@ -16,43 +16,30 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="container">
-        <!-- HTML код для бургер меню -->
-        <div class="burger-menu">
-          <nav class="phoneNavbar">
-            <ul class="ph-list">
-              <li><a href="index.html"
-                ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
-                /></a></li>
-              <span class="left-ph"><li><a href="appointment.html">Записатися на прийом</a></li></span>
-              <li>
-                <ul class="menu">
-                  <li><a href="#">Про MedArt</a></li>
-                  <li><a href="#">Лікарі MedArt</a></li>
-                  <li>
-                    <a href="#">Наші послуги</a>
-                    <div class="hiden-menu">
-                      <ul>
-                        <li><a href="dantist.html">Стоматологія</a></li>
-                        <li>
-                          <a href="gynecologyandurology.html"
-                            >Гінекологія та Урологія</a
-                          >
-                        </li>
-                        <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-          <div class="burger-menu-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="17" viewBox="0 0 27 17" fill="none">
-              <path d="M0 17V14.1667H26.25V17H0ZM0 9.91667V7.08333H26.25V9.91667H0ZM0 2.83333V0H26.25V2.83333H0Z" fill="#1C1B1F"/>
-              </svg>
-          </div> <!-- Іконка бургер-меню -->
+      <!-- ADAPT HEADER -->
+      <section class="top-nav">
+        <div>
+          <a href="index.html"><img src="img/MedArtLogo.png" alt="Logo" class="Logo"></a>
         </div>
+        <div class="appointment-phone">
+          <h2><a href="appointment.html" class="app-ph">Записатися на прийом</a></h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a></li>
+          <li><a href="doctors.html"><h2 class="zero-weight">Лікарі MedArt</h2></a></li>
+          <li><a class="link" href="tel:+0673820388"><h3 class="zero-weight">067 382 0388</h3></a></li>
+          <li><h2>Наші Послуги</h2></li>
+          <li><a href="dantist.html">Стоматологія</a></li>
+          <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+          <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+        </ul>
+      </section>
+      <!-- NORMAL HEADER -->
+      <div class="container">
         <nav class="navbar">
           <a href="index.html"
           ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
