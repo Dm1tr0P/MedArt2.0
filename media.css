@@ -165,11 +165,15 @@
   }
   .div-box-doctors-text {
     width: 359px;
-    height: 151px;
+    height: 251px;
   }
   .img-tool {
     width: 526px;
     height: 300px;
+  }
+  .doctors-gynecology {
+    width: 360px;
+    height: 380px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -215,5 +219,9 @@
   }
   .div-box-doctors {
     gap: 130px;
+  }
+  .doctors-gynecology {
+    width: 560px;
+    height: 600px;
   }
 }
