@@ -390,6 +390,10 @@
     box-shadow: 3px 3px 1px 1px #0456b7;
     cursor: pointer;
   }
+  .masDoc {
+    width: 400px;
+    height: 500px;
+  }
 }
 @media screen and (max-width: 1157px) {
   .container-flex-doc {
