@@ -571,3 +571,7 @@ ul h2 {
   font-weight: 600;
   line-height: normal;
 }
+.p-hiden {
+  text-align: center;
+  width: 300px;
+}
