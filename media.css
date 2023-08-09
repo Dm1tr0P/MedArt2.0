@@ -433,6 +433,50 @@
     font-weight: 600;
     line-height: normal;
   }
+
+  /* GYNECOLOGY */
+  .doctors-gynecology {
+    width: 100%;
+    height: 450px;
+  }
+  .ph-kush {
+    position: absolute;
+    top: 900px;
+  }
+  .kush-ph-about {
+    position: absolute;
+    left: 0px;
+    top: 1350px;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 204px;
+  }
+  .boh-ph-about {
+    position: absolute;
+    left: 0px;
+    top: 650px;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 204px;
+    font-size: 15px;
+  }
+  .button-click-MedArt {
+    display: none;
+  }
+  .box-div-medart {
+    margin-top: 950px;
+  }
+  .img-tool {
+    display: none;
+  }
+  .ser-ph {
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+  .div-img-foto-medart {
+    display: inline;
+  }
 }
 
 /* TABLET */

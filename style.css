@@ -476,6 +476,9 @@ ul h2 {
 .p-medart {
   text-align: center;
 }
+.ser-ph {
+  display: none;
+}
 .div-img-foto-medart {
   display: flex;
 }
