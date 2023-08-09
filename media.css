@@ -449,6 +449,25 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+  .div-texy-about-second {
+    position: absolute;
+    z-index: 1;
+    left: -350px;
+  }
+  .ul-div-box-doctors {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    gap: 30px;
+  }
+  .Jarkovich {
+    width: 375px;
+  }
+  .ul-div-box-doctors-jarkovich {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
   .span-kush {
     display: flex;
     justify-content: center;
@@ -522,14 +541,20 @@
     justify-content: center;
   }
   .img-dantist {
-    width: 360px;
+    width: 375px;
     height: 367px;
   }
   .div-box-doctors {
     gap: 36px;
   }
-  .ul-div-box-doctors {
+  .div-box-doctors-text-massage {
     gap: 36px;
+    background-color: #d9d9d9;
+    width: 375px;
+    height: 247px;
+    text-align: center;
+    font-size: 15px;
+    gap: 30px;
   }
   .div-box-doctors-text {
     width: 375px;
@@ -763,5 +788,32 @@
   }
   .p-hiden {
     display: none;
+  }
+  .div-box-doctors-text-massage {
+    background-color: #d9d9d9;
+    width: 375px;
+    height: 247px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .ul-div-box-doctors {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    gap: 130px;
+  }
+  .img-dantist {
+    width: 375px;
+  }
+  .div-texy-about-second {
+    position: absolute;
+    z-index: 1;
+  }
+  .fist-img {
+    height: 721px;
+  }
+  .doctors-gynecology {
+    width: 375px;
+    height: 450px;
   }
 }
