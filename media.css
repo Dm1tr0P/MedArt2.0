@@ -292,6 +292,7 @@
   }
   .fist-img-phone {
     display: block;
+    width: 100%;
   }
   .section-about {
     width: 100%;
@@ -371,6 +372,7 @@
     font-weight: 600;
     line-height: normal;
     margin-left: -25px;
+    width: 100%;
   }
   .gynecology {
     color: #000;
@@ -391,7 +393,7 @@
     font-weight: 500;
     line-height: normal;
     width: 100%;
-    height: 270px;
+    height: 290px;
   }
   .massageP {
     color: #000;
@@ -402,6 +404,34 @@
     line-height: normal;
     width: 100%;
     height: 200px;
+  }
+
+  /* POLICY */
+  .backgrond-color-policy {
+    width: 100%;
+  }
+
+  /* DOCTORS */
+  .doc-img {
+    width: 100%;
+    height: 370px;
+  }
+  .doc-img1 {
+    width: 100%;
+  }
+  .kush {
+    height: 60px;
+  }
+  .container-flex-doc {
+    gap: 0px;
+  }
+  .med-doc-h2 {
+    color: #0456B7;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 }
 
