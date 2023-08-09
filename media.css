@@ -1,5 +1,5 @@
 /* PHONE */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   /* MAIN PAGE */
   .Logo {
     width: 103px;
@@ -159,8 +159,11 @@
     width: 100%;
   }
   .MainTexts {
-    margin-left: -20px;
-    width: 400px;
+    text-align: center;
+    width: 100%;
+  }
+  .div-pading {
+    width: 100%;
   }
   .PhotoAndSlogan {
     display: flex;
@@ -189,7 +192,6 @@
   }
   .h-div-main {
     color: #0456b7;
-    text-align: center;
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
@@ -227,16 +229,15 @@
   /* FOOTER */
   .link-footer {
     color: #000;
-    text-align: center;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-left: -35px;
   }
   .footer-text {
     color: #0456b7;
-    text-align: center;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
@@ -244,10 +245,14 @@
     line-height: normal;
     margin-top: -15px;
   }
+  .footer-text-div {
+    text-align: center;
+  }
   .footer-section {
     display: inline;
     text-align: center;
     width: 100%;
+    background-color: #dfefff;
   }
   .div-color-blue {
     width: 100%;
@@ -257,15 +262,146 @@
     margin-left: 100%;
     z-index: 1;
   }
-}
-@media screen and (max-width: 767px) {
-  /* MAIN PAGE */
-  .container {
+
+  /* APPOINTMENT */
+  .form-container {
     width: 100%;
   }
-  .Logo {
-    width: 103px;
+  .madal-form {
+    width: 100%;
+  }
+  #user-date {
+    width: 100%;
+  }
+  .select-form {
+    width: 100%;
+  }
+  #user-name {
+    width: 100%;
+  }
+  #user-phone {
+    width: 100%;
+  }
+  #user-email {
+    width: 100%;
+  }
+
+  /* ABOUT */
+  .fist-img {
+    display: none;
+  }
+  .fist-img-phone {
+    display: block;
+  }
+  .section-about {
+    width: 100%;
+  }
+  .ab-text {
+    width: 100%;
+  }
+  .about-phone-h2 {
+    color: black;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .text-about {
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
+  .blue-span {
+    color: #0456B7;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .div-texy-about {
+    text-align: center;
+    margin-left: 30px;
+  }
+  .about-section2 {
+    width: 100%;
+  }
+  .about-our-services {
+    width: 243px;
     height: 53px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .button-click {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    width: 202px;
+    height: 43px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #000;
+    margin-top: -20px;
+  }
+  .box-button {
+    display: inline;
+    text-align: center;
+  }
+  .g-title {
+    color: #0456B7;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: -25px;
+  }
+  .gynecology {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    height: 150px;
+  }
+  .dantist {
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    height: 270px;
+  }
+  .massageP {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    height: 200px;
   }
 }
 

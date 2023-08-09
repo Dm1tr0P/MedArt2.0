@@ -235,6 +235,9 @@ nav a {
 .fist-img {
   height: 1000px;
 }
+.fist-img-phone {
+  display: none;
+}
 .text-about {
   font-family: DM Sans;
   font-size: 24px;
@@ -243,6 +246,9 @@ nav a {
   line-height: 120%;
   letter-spacing: -1.08px;
   width: 335px;
+  position: absolute;
+  bottom: 35px;
+  left: 700px;
 }
 .div-foto-text {
   display: flex;
