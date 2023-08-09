@@ -444,11 +444,77 @@
     width: 100%;
     height: 450px;
   }
+  .gynecologyandurology-section {
+    display: none;
+  }
+  .div-box-doctors-text-phone {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 207px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .button-click-MedArt {
+    display: none;
+  }
+  .p-medart-gyn-phone {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 100%;
+    height: 170px;
+    flex-shrink: 0;
+  }
+  .div-img-foto-medart {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-tool-phone {
+    display: none;
+  }
+  .gyn-img-ph {
+    margin-bottom: 20px;
+  }
+  
+  /* DANTIST */
+  .dantist-section {
+    display: none;
+  }
+  .doctors-dantist {
+    width: 100%;
+    height: 400px;
+  }
+
+  /* MASSAGE */
+  .massage-section {
+    display: none;
+  }
+  .doctors-dantist {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+  .gynecologyandurology-section-phone {
+    display: none;
+  }
+  .dantist-section-phone {
+    display: none;
+  }
+  .gyn-img-ph {
+    display: none;
+  }
+  .massage-section-phone {
+    display: none;
+  }
   .div-texy-about-second {
     position: absolute;
     z-index: 1;
