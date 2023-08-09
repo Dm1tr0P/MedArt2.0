@@ -801,6 +801,9 @@
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+  .app-ph {
+    padding-left: 300px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .WhyMed {
