@@ -150,6 +150,10 @@
     }
   }
   /* MAIN */
+  .div-whymed {
+    display: flex;
+    justify-content: center;
+  }
   .MainPhoto {
     display: none;
   }
@@ -189,6 +193,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    display: contents;
   }
   .h-div-main {
     color: #0456b7;
@@ -320,7 +325,7 @@
     bottom: 0px;
   }
   .blue-span {
-    color: #0456B7;
+    color: #0456b7;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
@@ -352,7 +357,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    
+
     width: 202px;
     height: 43px;
     flex-shrink: 0;
@@ -365,7 +370,7 @@
     text-align: center;
   }
   .g-title {
-    color: #0456B7;
+    color: #0456b7;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -426,7 +431,7 @@
     gap: 0px;
   }
   .med-doc-h2 {
-    color: #0456B7;
+    color: #0456b7;
     font-family: Montserrat;
     font-size: 32px;
     font-style: normal;
@@ -444,6 +449,17 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
+  .span-kush {
+    display: flex;
+    justify-content: center;
+  }
+  .kush {
+    height: 28px;
+  }
+  .div-whymed {
+    display: flex;
+    justify-content: center;
+  }
   .WhyMed {
     padding-top: 190px;
     padding-left: 105px;
@@ -453,6 +469,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    display: contents;
   }
   .MainTexts {
     display: flex;
