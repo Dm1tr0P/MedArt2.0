@@ -532,7 +532,7 @@
     gap: 36px;
   }
   .div-box-doctors-text {
-    width: 359px;
+    width: 375px;
     height: 251px;
   }
   .img-tool {
@@ -541,7 +541,7 @@
   }
   .doctors-gynecology {
     width: 360px;
-    height: 380px;
+    height: 450px;
   }
   .container-flex-doc {
     gap: 50px;
@@ -550,8 +550,6 @@
     display: none;
     position: absolute;
     background-color: #c3def9;
-    top: 680px;
-    left: 10px;
     z-index: 1;
     width: 350px;
     box-shadow: 3px 3px 1px 1px #0456b7;
@@ -561,8 +559,6 @@
     display: none;
     position: absolute;
     background-color: #c3def9;
-    top: 680px;
-    left: 420px;
     z-index: 1;
     width: 350px;
     box-shadow: 3px 3px 1px 1px #0456b7;
@@ -572,15 +568,13 @@
     display: none;
     position: absolute;
     background-color: #c3def9;
-    top: 1250px;
-    left: 170px;
     z-index: 1;
     width: 450px;
     box-shadow: 3px 3px 1px 1px #0456b7;
     cursor: pointer;
   }
   .masDoc {
-    width: 400px;
+    width: 375px;
     height: 500px;
   }
 }
