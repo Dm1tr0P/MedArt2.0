@@ -178,8 +178,8 @@
     text-align: center;
     width: 248px;
     position: absolute;
-    top: 230px;
-    left: 25px;
+    top: 210px;
+    left: 10px;
     font-family: Montserrat;
     font-size: 19px;
     font-style: normal;
@@ -194,6 +194,9 @@
     font-weight: 500;
     line-height: normal;
     display: contents;
+  }
+  .ul-text-main {
+    padding-left: 0px;
   }
   .h-div-main {
     color: #0456b7;
@@ -257,7 +260,6 @@
     display: inline;
     text-align: center;
     width: 100%;
-    background-color: #dfefff;
   }
   .div-color-blue {
     width: 100%;
@@ -266,6 +268,11 @@
   .map-div {
     margin-left: 100%;
     z-index: 1;
+  }
+  .div-color-footer {
+    background-color: #dfefff;
+    margin-top: -15px;
+    margin-bottom: -15px;
   }
 
   /* APPOINTMENT */
@@ -376,7 +383,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-left: -25px;
+
     width: 100%;
   }
   .gynecology {
@@ -442,7 +449,7 @@
   /* GYNECOLOGY */
   .doctors-gynecology {
     width: 100%;
-    height: 450px;
+    height: 470px;
   }
   .gynecologyandurology-section {
     display: none;
@@ -501,7 +508,7 @@
   .massage-section {
     display: none;
   }
-  .doctors-dantist {
+  .doctors-massage {
     width: 100%;
     height: 500px;
   }
