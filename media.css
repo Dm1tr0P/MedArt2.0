@@ -387,7 +387,7 @@
     font-weight: 500;
     line-height: normal;
     width: 100%;
-    height: 150px;
+    height: 180px;
   }
   .dantist {
     color: #000;
@@ -398,7 +398,7 @@
     font-weight: 500;
     line-height: normal;
     width: 100%;
-    height: 290px;
+    height: 350px;
   }
   .massageP {
     color: #000;
@@ -408,7 +408,7 @@
     font-weight: 500;
     line-height: normal;
     width: 100%;
-    height: 200px;
+    height: 250px;
   }
 
   /* POLICY */
@@ -450,7 +450,14 @@
   .div-box-doctors-text-phone {
     background-color: #d9d9d9;
     width: 100%;
-    height: 207px;
+    height: 240px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .div-box-doctors-text-phone-rosh {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 265px;
     text-align: center;
     font-size: 15px;
   }
